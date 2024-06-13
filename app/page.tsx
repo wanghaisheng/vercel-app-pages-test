@@ -5,6 +5,7 @@ export default function Home() {
     <div>
       Hello subfolder.{" "}
       <Link href="/about">about.tsx subfolder under /app/about</Link>
+      <br />
       Hello samefolder.
       <Link href="/samefolder">samefolder.tsx under /app</Link>
     </div>
